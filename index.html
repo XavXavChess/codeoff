@@ -1,9 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <script src="main.js"></script>
 <body>
-    <p id="demo"></p>
 
+<h2>Data Encrption</h2>
+
+<!--Buttons to enter data and encrpted data-->
+
+<button type="button" onclick="data()">Encrpt data</button>
+
+<button type="button" onclick="undata()">decrpt data</button>
+
+<p id="demo"></p>
+
+<script>
+// where the user inputs their data they want to encrpt//
+function data() {
+let a = prompt("First digit code");
+let b = prompt("Second digit code");
+let c = prompt("Third digit code");
+let d = prompt("Forth digit code");
+}
+
+// where the user inputs their encprted data they want to encrpt//
+function undata() {
+let ae = prompt("First encrpt code");
+let be = prompt("Second encrpt code");
+let ce = prompt("Third encrpt code");
+let de = prompt("Forth encrpt code");
+}
+
+//The encription part//
+let na = Math.floor(Math.random() * 100) + 1
+
+document.getElementById("demo").innerHTML =
+na;
+</script>
 
 </body>
-</html> 
+</html>
